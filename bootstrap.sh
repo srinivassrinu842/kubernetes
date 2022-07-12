@@ -61,7 +61,6 @@ echo "export TERM=xterm" >> /etc/bash.bashrc
 echo "[TASK 10] Update /etc/hosts file"
 cat >>/etc/hosts<<EOF
 192.168.56.31   kmaster1.sreechen.com    kmaster1
-192.168.56.32   kmaster2.sreechen.com    kmaster2
 192.168.56.41   kworker1.sreechen.com    kworker1
 192.168.56.42   kworker2.sreechen.com    kworker2
 EOF
